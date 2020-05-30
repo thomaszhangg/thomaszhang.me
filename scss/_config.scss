@@ -8,13 +8,13 @@ $background-opacity: 0.9;
 // A function we can ivoke with @includes to customize easeOut functionality
 @mixin easeOut {
   transition: all 0.8s ease-out;
-}
+} 
 
 @mixin background {
   // if show-home-image is true
   @if $show-home-image {
     &#bg-img {
-      background: $home-image;
+      background: $home-image; 
       background-attachment: fixed;
       background-size: cover;
 
@@ -32,9 +32,16 @@ $background-opacity: 0.9;
   }
 }
 
-// Media query mixins
+// Function to set colors, will use for menu button lines, overlay contrast, menu items)
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
 
-// Small screens
+// Media query mixins
 @mixin mediaSm {
   // CSS will only be applied if the screen is 500px or less (~4in)
   @media screen and (max-width: 500px) {
