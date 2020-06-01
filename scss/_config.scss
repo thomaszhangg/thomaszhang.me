@@ -42,30 +42,30 @@ $background-opacity: 0.9;
 }
 
 // Media query mixins
-// @mixin mediaSm {
-//   // CSS will only be applied if the screen is 500px or less (~4in)
-//   @media screen and (max-width: 500px) {
-//     @content;
-//   }
-// }
+@mixin mediaSm {
+  // CSS will only be applied if the screen is 500px or less (~4in)
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
 
-// // Medium
-// @mixin mediaMd {
-//   @media screen and (max-width: 768px) {
-//     @content;
-//   }
-// }
+// Medium
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
 
-// // Large
-// @mixin mediaLg {
-//   @media screen and (max-width: 769px) and (max-width: 1170px) {
-//     @content;
-//   }
-// }
+// Large
+@mixin mediaLg {
+  @media screen and (max-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
 
-// // XL
-// @mixin mediaXl {
-//   @media screen and (min-width: 1171px) {
-//     @content;
-//   }
-// }
+// XL
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}

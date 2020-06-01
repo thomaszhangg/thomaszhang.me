@@ -46,6 +46,18 @@
       height: 150px;
     }
   }
+
+  // Adjusting grid template to map out single fractional stacks for medium screens
+  .about-info {
+    grid-template-areas: 
+    'bioimage'
+    'bio'
+    'job1'
+    'job2'
+    'job3';
+
+    grid-template-columns: 1fr;
+  }
 }
 
 // Smartphones
