@@ -168,8 +168,7 @@ main {
     border-radius: 50%;
     border: #eece1a 3px solid; }
   .about-info .bio {
-    grid-area: bio;
-    font-size: 1.5rem; }
+    grid-area: bio; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
