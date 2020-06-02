@@ -34,6 +34,12 @@ h3 {
   }
 }
 
+.resume {
+  font-size: 1.7em;
+  // font-weight: bolder;
+
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -100,7 +106,6 @@ main {
   .skills {
     display: flex;
     justify-content: space-around;
-    
   }
 
   .job-1 {
