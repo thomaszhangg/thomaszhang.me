@@ -169,6 +169,9 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio; }
+  .about-info .skills {
+    display: flex;
+    justify-content: space-around; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
