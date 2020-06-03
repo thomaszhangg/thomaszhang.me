@@ -34,12 +34,6 @@ h3 {
   }
 }
 
-.resume {
-  font-size: 1.7em;
-  // font-weight: bolder;
-
-}
-
 a {
   color: #fff;
   text-decoration: none;
@@ -72,6 +66,11 @@ main {
         @include easeOut();
       }
     }
+  }
+
+  .resume {
+    font-size: 2em;
+    // font-weight: bold;
   }
 
   &#home {

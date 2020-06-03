@@ -130,9 +130,6 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
 
-.resume {
-  font-size: 1.7em; }
-
 a {
   color: #fff;
   text-decoration: none; }
@@ -155,6 +152,8 @@ main {
       main .icons a:hover {
         color: #eece1a;
         transition: all 0.8s ease-out; }
+  main .resume {
+    font-size: 2em; }
   main#home {
     overflow: hidden; }
     main#home h1 {
