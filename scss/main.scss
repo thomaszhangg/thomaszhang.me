@@ -161,6 +161,25 @@ main {
 }
 
 // SASS allows us to extend these CSS classes
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: #fff;
+}
 
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 50);
+  color: #333;
+}
+
+// STICKY FOOTER, change main height from 100% => min-height: calc(100vh - 60px);
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($primary-color, 10);
+  color: set-text-color($primary-color);
+  height: 60px;
+}
 
 @import 'mobile';
