@@ -132,7 +132,7 @@ main {
   display: grid;
   grid-gap: 1rem;
   // grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
   img {
     // width: 100%;
@@ -165,17 +165,7 @@ main {
 }
 
 // SASS allows us to extend these CSS classes
-.btn-dark {
-  @extend .btn;
-  background: darken($primary-color, 50);
-  color: #fff;
-}
 
-.btn-light {
-  @extend .btn;
-  background: lighten($primary-color, 50);
-  color: #333;
-}
 
 // STICKY FOOTER, change main height from 100% => min-height: calc(100vh - 60px);
 #main-footer {
