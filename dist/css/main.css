@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,100,400");
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -99,7 +100,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/THEO.png);
