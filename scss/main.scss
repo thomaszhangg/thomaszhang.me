@@ -15,14 +15,13 @@ body {
   line-height: 1.5;
 }
 
-// Headings
 h1,
 h2,
 h3 {
   margin: 0;
   font-weight: 400;
 
-  // with SASS, we can nest classes, so below will affect h1,h2,h3 WITH .lg-heading (not as a child of h1,h2,h3)
+  // AND not as child
   &.lg-heading {
     font-size: 6rem;
   }
@@ -53,7 +52,7 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
 
-  // with SASS, we can nest classes, so below will affect .icon classes within main
+  // as CHILD, not with
   .icons {
     margin-top: 1rem;
 
@@ -70,7 +69,6 @@ main {
 
   .resume {
     font-size: 2em;
-    // font-weight: bold;
   }
 
   &#home {
@@ -100,7 +98,7 @@ main {
 
   .bio {
     grid-area: bio;
-    // font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .skills {
@@ -131,7 +129,6 @@ main {
 .projects {
   display: grid;
   grid-gap: 1rem;
-  // grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
   img {
@@ -173,7 +170,6 @@ main {
   }
 }
 
-// Button Styles
 .btn {
   display: block;
   padding: 0.5rem 1rem;
@@ -183,7 +179,6 @@ main {
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
-    // @include easeIn;
   }
 }
 

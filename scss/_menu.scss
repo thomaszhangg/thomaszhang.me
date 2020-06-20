@@ -1,4 +1,3 @@
-// Menu button
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -36,12 +35,10 @@
   }
 }
 
-// Menu Overlay
 .menu {
   position: fixed;
   top: 0;
   width: 100%;
-  //   opacity: 0.9;   added opacity paramter to rgba individually to nav and branding below instead
   visibility: hidden;
 
   &.show {
@@ -63,27 +60,22 @@
   &-nav {
     margin: 0;
     padding: 0;
-    // background: darken($primary-color, 5);
     background: rgba(darken($primary-color, 5), 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
 
     &.show {
-      // Slide in from top
       transform: translate3d(0, 0, 0);
     }
   }
 
-  // Branding Side
   &-branding {
-    // background: $primary-color;
     background: rgba($primary-color, 0.9);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
     &.show {
-      // Slide in from bottom
       transform: translate3d(0, 0, 0);
     }
 
@@ -91,7 +83,7 @@
       width: 250px;
       height: 250px;
       transform: rotate(3deg);
-      background: url('../img/Headshot2.jpg');
+      background: url('../img/headshots/headshot2.jpg');
       transform: rotate(3deg);
       border-radius: 50%;
       border: solid 3px $secondary-color;
@@ -103,7 +95,6 @@
     @include easeOut;
 
     &.show {
-      // Slide in from right
       transform: translate3d(0, 0, 0);
     }
 
