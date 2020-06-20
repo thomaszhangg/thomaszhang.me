@@ -103,7 +103,7 @@ body {
   font-family: 'Raleway', sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/THEO.png);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
