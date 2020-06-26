@@ -145,8 +145,7 @@ header {
   color: #d7c49eff; }
 
 main {
-  padding: 4rem;
-  min-height: calc(100vh - 60px); }
+  padding: 4rem; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -237,13 +236,6 @@ main {
 .btn-light {
   background: #ededed;
   color: #333; }
-
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #545454;
-  color: #fff;
-  height: 60px; }
 
 @media screen and (min-width: 1171px) {
   .projects {
